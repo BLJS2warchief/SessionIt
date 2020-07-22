@@ -1,0 +1,24 @@
+{
+
+  "manifest_version": 2,
+  "name": "SessionIt",
+  "version": "1.0",
+
+  "description": "Manage your bookmarks into folders",
+
+  "icons": {
+    "96": "popup/icons/icon.jpg"
+  },
+  "permissions": [
+    "storage",
+    "<all_urls>",
+    "bookmarks",
+    "tabs"
+  ],
+  "browser_action": {
+    "default_icon": "popup/icons/icon.jpg",
+    "default_title": "SessionIt",
+    "default_popup": "popup/list.html"
+  },
+  "content_security_policy": "default-src 'self'"
+}
